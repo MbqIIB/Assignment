@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    tomcat7:
+         build: tomcat7/
+         restart: always
+         ports:
+             - "7080:8080"
+
+networks:
+    default:
+      driver: bridge
