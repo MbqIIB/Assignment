@@ -1,6 +1,6 @@
 1) AWS Services which can be used are :
 
-AWS EC2 instances  :  To migrate all the Servers on this instance
+AWS EC2 instances  :  To migrate all the Application Servers on this instance
 AWS EBS	volumes	   :  To migrate the Data on this Disk Volumes
 AWS VPC            : Virtual Private Cloud - create an IPSec VPN tunnel that will allow resources running on AWS to communicate securely with resources at the
 other end of the tunnel in your existing data center
@@ -14,5 +14,5 @@ In this approach, rather than moving the pieces of system over the time, forklif
 
 Using this approach , you might be able to migrate an existing application into the cloud with few code changes. Most of the
 changes will involve copying your application binaries, creating and configuring Amazon Machine Images, setting up
-security groups and elastic IP addresses, DNS, switching to Amazon RDS databases. This is where AWS’s raw 
+security groups and elastic IP addresses, DNS, switching to Amazon RDS databases. This is where AWSâ€™s raw 
 infrastructure services (Amazon EC2, Amazon S3, Amazon RDS and Amazon VPC) will come into picture.
